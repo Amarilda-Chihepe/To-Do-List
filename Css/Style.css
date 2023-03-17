@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+.container{
+    background-color: aliceblue;
+    margin-top: 100px;
+    width: 50%;
+    padding-bottom: 40px;
+}
+
+.title{
+    background-color: rgb(33,97,203);
+    height: 60px;
+    position: relative;
+    color: white;
+    align-items: center;
+    padding-left: 10px;
+}
+.flex{
+    display: flex;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#to-do{
+    
+    outline: none;
+    width: 80%;
+    height: 30px;
+    font-size: 17px;
+    padding: 5px;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+    
+}
+
+#add, #edit, #del{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: white;
+    background-color: green;
+    border: none;
+    margin-right: 25px;
+    width: 70px;
+}
+#edit{
+    width: 50px;
+    background-color:  rgb(33,97,203);
+}
+
+#del{
+    background-color: red;
+}
+.list{
+    margin-top: 40px;
+
+}
+
+.list-form{
+    width: 100%;
+}
+
+.list-to-do{
+    margin-top: 50px;
+    width: 100%;
+}
+
+#task-to-do{
+    width: 100%;
+}
+#item{
+    background-color: rgb(196,224,228);
+    height: 40px;
+    width: 90%;
+    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5px;
+    padding-top: 1px;
+    
+}
+
+.operations{
+    margin-left: 30px;
+}
+
+@media (max-width: 800px){
+    .list-to-do{
+        display: block;
+    } 
+
+    .operations{
+       margin-bottom: 20px;
+        margin-top: 10px;
+        margin-left: 40px;
+    }
+}
